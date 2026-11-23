@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra cứu giá hoa quả</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="khung">
+    <h1>Giá hoa quả</h1>
+
+    <form id="form-tra-cuu">
+      <input type="text" id="ten_hoa_qua" list="ds-hoa-qua" placeholder="Nhập tên hoa quả">
+      <button type="submit">Xem giá</button>
+    </form>
+
+    <p id="ket_qua"></p>
+  </div>
+
+  <!-- Gợi ý tên hoa quả khi gõ vào ô nhập -->
+  <datalist id="ds-hoa-qua">
+    <option value="Ổi">
+    <option value="Dưa Hấu">
+    <option value="Táo">
+    <option value="Cam">
+    <option value="Chôm Chôm">
+    <option value="Măng Cụt">
+  </datalist>
+
+  <script src="script.js"></script>
+</body>
+</html>

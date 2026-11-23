@@ -1,0 +1,60 @@
+/* ===========================================================
+   Bài 3.2.2 – Tra cứu giá hoa quả
+   =========================================================== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f6ec;
+  color: #222;
+  margin: 0;
+  padding: 40px 15px;
+}
+
+/* Khung giống Hình 3.1 */
+.khung {
+  max-width: 340px;
+  margin: 0 auto;
+  background: #fff;
+  border: 2px solid #555;
+  padding: 16px 22px 22px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin: 0 0 16px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  font-size: 15px;
+  border: 1px solid #999;
+}
+
+button {
+  padding: 6px 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#ket_qua {
+  font-size: 28px;
+  min-height: 34px;
+  margin: 18px 0 0;
+}
+
+#ket_qua.co-gia {
+  color: #2e7d32;
+}
+
+#ket_qua.khong-thay {
+  color: #c62828;
+  font-size: 20px;
+}
